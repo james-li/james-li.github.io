@@ -1,13 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh">
 <head>
-    <meta http-equiv="refresh" content="0;url=https://fgfwsub.jimage.site/sub?token=46483d7c-0aba-4b86-b14a-749edf49890b">
-    <title>301 Moved Permanently</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL 内容显示</title>
 </head>
 <body>
-    <p>If you are not redirected, <a href="https://https://fgfwsub.jimage.site/sub?token=46483d7c-0aba-4b86-b14a-749edf49890b">click here</a>.</p>
+    <h2>目标 URL 内容：</h2>
+    <pre id="content">请提供正确的 Token</pre>
+
     <script>
-        window.location.replace("https://fgfwsub.jimage.site/sub?token=46483d7c-0aba-4b86-b14a-749edf49890b");
+        async function fetchContent() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const token = urlParams.get('token');
+            
+            const targetUrl = "https://fgfwsub.jimage.site/sub?token="+token; // 目标 URL，修改为你的地址
+            try {
+                const response = await fetch(targetUrl, {
+                    method: 'GET',
+                    headers: { 'Content-Type': 'text/plain' }
+                });
+                if (!response.ok) throw new Error(`HTTP error! 状态码: ${response.status}`);
+                const text = await response.text();
+                document.getElementById("content").textContent = text;
+            } catch (error) {
+                document.getElementById("content").textContent = `获取内容失败: ${error.message}`;
+            }
+        }
+        fetchContent();
     </script>
 </body>
 </html>
