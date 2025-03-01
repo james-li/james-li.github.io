@@ -15,6 +15,7 @@
             const token = urlParams.get('token');
             
             const targetUrl = "https://fgfwsub.jimage.site/sub?token="+token; // 目标 URL，修改为你的地址
+            console.log(targetUrl);
             try {
                 const response = await fetch(targetUrl, {
                     method: 'GET',
