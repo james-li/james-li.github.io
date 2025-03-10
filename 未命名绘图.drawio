@@ -5,22 +5,22 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="X5e3uY8N-baIYEQO0uc5-21" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="690" y="190" width="230" height="400" as="geometry" />
+          <mxGeometry x="731" y="190" width="230" height="400" as="geometry" />
         </mxCell>
         <mxCell id="X5e3uY8N-baIYEQO0uc5-6" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="170" y="190" width="490" height="400" as="geometry" />
+          <mxGeometry x="211" y="190" width="490" height="400" as="geometry" />
         </mxCell>
         <mxCell id="X5e3uY8N-baIYEQO0uc5-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X5e3uY8N-baIYEQO0uc5-12" target="X5e3uY8N-baIYEQO0uc5-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="X5e3uY8N-baIYEQO0uc5-12" value="kb-backend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="297" width="100" height="50" as="geometry" />
+          <mxGeometry x="251" y="257" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="X5e3uY8N-baIYEQO0uc5-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="X5e3uY8N-baIYEQO0uc5-14" target="X5e3uY8N-baIYEQO0uc5-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="X5e3uY8N-baIYEQO0uc5-14" value="dify-api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="257" width="100" height="50" as="geometry" />
+          <mxGeometry x="421" y="257" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="X5e3uY8N-baIYEQO0uc5-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X5e3uY8N-baIYEQO0uc5-15" target="X5e3uY8N-baIYEQO0uc5-25">
           <mxGeometry relative="1" as="geometry" />
@@ -41,49 +41,52 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="X5e3uY8N-baIYEQO0uc5-15" value="dify-worker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="337" width="100" height="50" as="geometry" />
+          <mxGeometry x="421" y="337" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="X5e3uY8N-baIYEQO0uc5-16" value="xinference" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="427" width="100" height="50" as="geometry" />
+          <mxGeometry x="241" y="427" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="X5e3uY8N-baIYEQO0uc5-17" value="xinference" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="427" width="100" height="50" as="geometry" />
+          <mxGeometry x="351" y="427" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="X5e3uY8N-baIYEQO0uc5-18" value="xinference" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="427" width="100" height="50" as="geometry" />
+          <mxGeometry x="461" y="427" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="X5e3uY8N-baIYEQO0uc5-19" value="向量数据库&lt;div&gt;weaviate&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="427" width="100" height="50" as="geometry" />
+          <mxGeometry x="571" y="427" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="X5e3uY8N-baIYEQO0uc5-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X5e3uY8N-baIYEQO0uc5-20" target="X5e3uY8N-baIYEQO0uc5-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X5e3uY8N-baIYEQO0uc5-20" value="nginx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="320" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="X5e3uY8N-baIYEQO0uc5-23" value="kb-front" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="360" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="X5e3uY8N-baIYEQO0uc5-24" value="公共组件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="750" y="530" width="100" height="50" as="geometry" />
+        <mxCell id="X5e3uY8N-baIYEQO0uc5-24" value="公共组件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="791" y="530" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="X5e3uY8N-baIYEQO0uc5-25" value="数据库&lt;div&gt;GaussDB/&lt;/div&gt;&lt;div&gt;PostgreSQL&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="755" y="282" width="100" height="50" as="geometry" />
+          <mxGeometry x="796" y="282" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="X5e3uY8N-baIYEQO0uc5-26" value="redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="755" y="382" width="100" height="50" as="geometry" />
+          <mxGeometry x="796" y="382" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="X5e3uY8N-baIYEQO0uc5-40" value="GPU服务器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="467" width="80" height="40" as="geometry" />
+          <mxGeometry x="251" y="467" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="X5e3uY8N-baIYEQO0uc5-41" value="GPU服务器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="467" width="80" height="40" as="geometry" />
+          <mxGeometry x="361" y="467" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="X5e3uY8N-baIYEQO0uc5-42" value="GPU服务器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="467" width="80" height="40" as="geometry" />
+          <mxGeometry x="471" y="467" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="X5e3uY8N-baIYEQO0uc5-43" value="知识库后端组件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="380" y="530" width="100" height="50" as="geometry" />
+          <mxGeometry x="421" y="530" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X5e3uY8N-baIYEQO0uc5-44" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="71" y="257" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X5e3uY8N-baIYEQO0uc5-20" value="nginx" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="X5e3uY8N-baIYEQO0uc5-44">
+          <mxGeometry width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X5e3uY8N-baIYEQO0uc5-23" value="kb-front" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="X5e3uY8N-baIYEQO0uc5-44">
+          <mxGeometry x="10" y="40" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
